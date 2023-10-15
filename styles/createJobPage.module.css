@@ -1,0 +1,138 @@
+.createJobPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  font-family: sans-serif;
+}
+
+.postNewJobBtn {
+  font-family: sans-serif;
+  background-color: #28f3c7;
+  background-image: linear-gradient(
+    to top,
+    #00ffff,
+    #00f7fc,
+    #00eef9,
+    #00e6f5,
+    #10ddf1,
+    #0bd9eb,
+    #05d4e5,
+    #00d0df,
+    #00cfd6,
+    #00cdcc,
+    #00cbc2,
+    #14c9b7
+  );
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  box-shadow: 0px 2px 5px 0px;
+}
+
+.postNewJobBtn:hover {
+  transform: scale(1.2);
+  background-image: linear-gradient(
+    to top,
+    #28f3c7,
+    #00f6ba,
+    #00f9ab,
+    #00fb9a,
+    #00fd86,
+    #00f87b,
+    #03f270,
+    #06ed65,
+    #0ddf63,
+    #14d261,
+    #19c45f,
+    #1eb75c
+  );
+}
+
+.newJobForm {
+  height: 710px;
+  width: 700px;
+  background-image: linear-gradient(
+    to top,
+    #00ffff,
+    #00f7fc,
+    #00eef9,
+    #00e6f5,
+    #10ddf1,
+    #0bd9eb,
+    #05d4e5,
+    #00d0df,
+    #00cfd6,
+    #00cdcc,
+    #00cbc2,
+    #14c9b7
+  );
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 40px 40px;
+  box-shadow: 0px 2px 5px 0px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.inputJobTitle {
+  height: 30px;
+  width: 280px;
+  text-indent: 1rem;
+  box-shadow: 0px 2px 4px 0px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 618px;
+  box-shadow: 0px 2px 5px 0px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.btnSubmitNewJob {
+  height: 30px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 270px;
+  box-shadow: 0px 2px 3px 0px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btnSubmitNewJob:hover {
+  transform: scale(1.2);
+  background-image: linear-gradient(
+    to top,
+    #28f3c7,
+    #00f6ba,
+    #00f9ab,
+    #00fb9a,
+    #00fd86,
+    #00f87b,
+    #03f270,
+    #06ed65,
+    #0ddf63,
+    #14d261,
+    #19c45f,
+    #1eb75c
+  );
+}
